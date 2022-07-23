@@ -1,0 +1,45 @@
+.model-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.model-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 50vw;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 0.25rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.button-container button {
+  padding: 0.25rem 0.75rem;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: rgb(77, 89, 253);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
